@@ -1,0 +1,238 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+.body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ margin: 0;
+ padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav {
+  display: inline-flex;
+  margin-left: 93px;
+  padding-top: 32px;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.menu {
+display: flex;
+justify-content: center;
+column-gap: 45px;
+}
+.header {
+  padding-bottom: 32px;
+}
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  padding-top: 24px;
+}
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-contacts {
+  justify-content: flex-end;
+  display: inline-flex;
+  margin-left: 344px;
+  column-gap: 50px;
+  padding-top: 32px;
+}
+.order {
+  background-color: #2F303A;
+  height: 600px;
+  padding-top: 200px;
+}
+.order-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #fff;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  width: 216px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #2196f3;
+}
+.pluses {
+  padding-top: 94px;
+  padding-bottom: 94px
+}
+.pluses-list {
+  display: flex;
+}
+.pluses-list-item-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.pluses-list-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.images {
+  padding-bottom: 94px;
+}
+.images-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.images-list {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 30px;
+}
+.workers {
+  padding-bottom: 94px;
+}
+.workers-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.workers-lists {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.worker-text {
+  font-size: 16px;
+  color: #757575;
+  display: flex;
+  justify-content: center;
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  display: flex;
+  justify-content: center;
+}
+.worker-img {
+  padding-bottom: 30px;
+}
+.gallery-filters {
+  display: flex;
+  justify-content: center;
+}
+.gallery-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.gallery-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.gallery-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.gallery-item-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+.address-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #fff;
+  padding-bottom: 9px;
+  padding-top: 20px;
+}
+.footer-contact {
+  padding-bottom: 9px;
+}
+.footer-contact-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  background-color: #212121;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-text {
+  font-family: var(--font-family);
+  padding-left: 500px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
