@@ -72,9 +72,13 @@ column-gap: 45px;
 .header-contacts {
   justify-content: flex-end;
   display: inline-flex;
-  margin-left: 318px;
+  margin-left: 312px;
   column-gap: 30px;
   padding-top: 32px;
+}
+.header-btn {
+  padding-right: 10px;
+  color: #757575;
 }
 .order {
   background-color: #2F303A;
@@ -238,7 +242,13 @@ column-gap: 45px;
 }
 .footer-svg {
   list-style: none;
-  column-gap: 30px;
+  column-gap: 10px;
   display: flex;
   padding-left: 496px;
+}
+.footer-btn {
+  border-radius: 50%;
+  padding: 12px;
+  background-color: #2196f3;
+  color: #FFFFFF;
 }
