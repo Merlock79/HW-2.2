@@ -72,8 +72,8 @@ column-gap: 45px;
 .header-contacts {
   justify-content: flex-end;
   display: inline-flex;
-  margin-left: 344px;
-  column-gap: 50px;
+  margin-left: 318px;
+  column-gap: 30px;
   padding-top: 32px;
 }
 .order {
@@ -235,4 +235,10 @@ column-gap: 45px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
+}
+.footer-svg {
+  list-style: none;
+  column-gap: 30px;
+  display: flex;
+  padding-left: 496px;
 }
