@@ -240,12 +240,12 @@ column-gap: 45px;
   text-transform: uppercase;
   color: #fff;
 }
-.footer-svg {
+/* .footer-svg {
   list-style: none;
   column-gap: 10px;
   display: flex;
   padding-left: 496px;
-}
+} */
 .footer-btn {
   border-radius: 50%;
   padding: 12px;
