@@ -69,6 +69,9 @@ column-gap: 45px;
   letter-spacing: 0.02em;
   color: #757575;
 }
+.header-contact-link {
+  color: #757575;
+}
 .header-contacts {
   justify-content: flex-end;
   display: inline-flex;
@@ -240,15 +243,16 @@ column-gap: 45px;
   text-transform: uppercase;
   color: #fff;
 }
-/* .footer-svg {
-  list-style: none;
+.footer-svgs-lists {
   column-gap: 10px;
   display: flex;
-  padding-left: 496px;
-} */
+}
 .footer-btn {
   border-radius: 50%;
   padding: 12px;
   background-color: #2196f3;
   color: #FFFFFF;
+}
+.footer-position {
+  display: flex;
 }
