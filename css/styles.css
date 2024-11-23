@@ -84,7 +84,8 @@ column-gap: 45px;
   color: #757575;
 }
 .order {
-  background-color: #2F303A;
+/*   background-color: #2F303A; */
+  background-image: url(../images/SVG/background.svg);
   height: 600px;
   padding-top: 200px;
 }
@@ -130,6 +131,10 @@ column-gap: 45px;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.pluses-list-item-img {
+ margin: 0 auto;
+ padding-bottom: 55px;
 }
 .images {
   padding-bottom: 94px;
@@ -181,6 +186,14 @@ column-gap: 45px;
 }
 .worker-img {
   padding-bottom: 30px;
+}
+.workers-svgs-lists {
+  column-gap: 22px;
+  display: flex;
+  margin-left: 62px;
+}
+.workers-btn {
+  fill: #AFB1B8;
 }
 .gallery-filters {
   display: flex;
@@ -252,7 +265,7 @@ column-gap: 45px;
   border-radius: 50%;
   padding: 12px;
   background-color: #2196f3;
-  color: #FFFFFF;
+  fill: #FFFFFF;
 }
 .footer-position {
   display: flex;
@@ -276,4 +289,5 @@ column-gap: 45px;
   padding-right: 32px;
   padding-top: 60px;
   outline: 1px solid #AFB1B8;
+  fill: #AFB1B8;
 }
