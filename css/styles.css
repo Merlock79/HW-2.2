@@ -269,10 +269,11 @@ column-gap: 45px;
   padding-bottom: 50px;
 }
 .always-clients-btn {
-  border-radius: 20%;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  border-radius: 5%;
+  padding-top: 23px;
+  padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
-  background-color: #AFB1B8;
+  padding-top: 60px;
+  outline: 1px solid #AFB1B8;
 }
