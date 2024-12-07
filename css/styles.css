@@ -77,8 +77,14 @@ column-gap: 45px;
 .header-contact-link:hover {
   color: #2196f3;
 }
+.header-contact-link:hover .header-svg-item {
+  fill: #2196f3;
+}
 .header-contact-link {
   color: #757575;
+}
+.header-svg-item {
+  margin-right: 10px;
 }
 .header-contacts {
   align-items: center;
@@ -146,9 +152,12 @@ column-gap: 45px;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.pluses-list-item-img {
- margin: 0 auto;
- padding-bottom: 55px;
+.pluses-list-item-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 35px;
 }
 .images {
   padding-bottom: 94px;
@@ -322,10 +331,9 @@ column-gap: 45px;
 .always-clients-btn {
   border-radius: 5%;
   padding-top: 23px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   padding-left: 32px;
   padding-right: 32px;
-  padding-top: 60px;
   outline: 1px solid #AFB1B8;
   fill: #AFB1B8;
 }
