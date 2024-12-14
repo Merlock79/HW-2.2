@@ -141,6 +141,15 @@ column-gap: 45px;
 .pluses-list {
   display: flex;
 }
+.pluses-list-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  margin: 2px;
+  margin-bottom: 30px;
+  height: 110px;
+}
 .pluses-list-item-text {
   font-size: 14px;
   line-height: 1.71;
@@ -152,13 +161,9 @@ column-gap: 45px;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.pluses-list-item-svg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  margin-bottom: 35px;
-}
+/* .pluses-list-item-svg {
+
+} */
 .images {
   padding-bottom: 94px;
 }
