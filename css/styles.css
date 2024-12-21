@@ -239,6 +239,8 @@ column-gap: 45px;
 .gallery-filters {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
+  column-gap: 8px;
 }
 .gallery-filter {
   font-weight: 500;
@@ -267,6 +269,10 @@ column-gap: 45px;
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
+}
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .address-text {
   font-size: 14px;
