@@ -140,6 +140,7 @@ column-gap: 45px;
 }
 .pluses-list {
   display: flex;
+  column-gap: 30px;
 }
 .pluses-list-div {
   display: flex;
@@ -310,6 +311,8 @@ column-gap: 45px;
   margin-left: 70px;
 }
 .footer-btn {
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
   padding: 10px;
   background-color: #212121;
@@ -322,11 +325,14 @@ column-gap: 45px;
 .footer-position {
   display: flex;
 }
+.always-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .always-clients-svgs-lists {
   display: flex;
   column-gap: 30px;
   justify-content: center;
-  padding-bottom: 94px;
 }
 .always-clients-text {
   justify-content: center;
