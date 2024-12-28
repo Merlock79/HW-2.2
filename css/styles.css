@@ -41,7 +41,6 @@ img {
 .nav {
   display: inline-flex;
   margin-left: 93px;
-  padding-top: 32px;
 }
 .menu-link {
   font-weight: 500;
@@ -58,7 +57,12 @@ justify-content: center;
 column-gap: 45px;
 }
 .header {
+  padding-top: 32px;
   padding-bottom: 32px;
+}
+.header-position {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: var(--second-family);
@@ -66,7 +70,6 @@ column-gap: 45px;
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding-top: 24px;
 }
 .header-contact {
   font-weight: 500;
@@ -88,11 +91,9 @@ column-gap: 45px;
 }
 .header-contacts {
   align-items: center;
-  justify-content: flex-end;
-  display: inline-flex;
-  margin-left: 312px;
-  column-gap: 30px;
-  padding-top: 32px;
+  display: flex;
+  margin-left: auto;
+  column-gap: 50px;
 }
 .header-btn {
   padding-right: 10px;
@@ -264,6 +265,7 @@ column-gap: 45px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  padding-top: 20px;
 }
 .gallery-item-text {
   font-size: 16px;
