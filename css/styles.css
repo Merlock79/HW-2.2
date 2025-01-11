@@ -59,6 +59,7 @@ img {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid #ececec;
 }
 .header-position {
   display: flex;
@@ -260,6 +261,18 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.gallery-filter-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 125px;
+  height: 38px;
+  border: none;
+}
+.gallery-filter-button:hover {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  background: #2196f3;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -268,6 +281,11 @@ img {
 }
 .gallery-item {
   flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #eee;
+  width: 370px;
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
 }
 .gallery-item-title {
   font-weight: 700;
@@ -276,11 +294,13 @@ img {
   letter-spacing: 0.06em;
   color: #212121;
   padding-top: 20px;
+  margin-left: 24px;
 }
 .gallery-item-text {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
+  margin-left: 24px;
 }
 .section {
   padding-bottom: 94px;
