@@ -106,10 +106,14 @@ img {
 }
 .order {
   /*   background-color: #2F303A; */
-  background-image: url(../images/SVG/background.svg);
+  background-image: url(../images/Img\ Overlay.png),
+    url(../images/SVG/background.svg);
   background-repeat: no-repeat;
+  width: 1600px;
   height: 600px;
   padding-top: 200px;
+  background-position: center;
+  background-size: cover;
 }
 .order-title {
   font-weight: 900;
