@@ -107,6 +107,7 @@ img {
 .order {
   /*   background-color: #2F303A; */
   background-image: url(../images/SVG/background.svg);
+  background-repeat: no-repeat;
   height: 600px;
   padding-top: 200px;
 }
