@@ -106,6 +106,7 @@ img {
 }
 .order {
   /*   background-color: #2F303A; */
+  margin: 0 auto;
   background-image: url(../images/Img\ Overlay.png),
     url(../images/SVG/background.svg);
   background-repeat: no-repeat;
